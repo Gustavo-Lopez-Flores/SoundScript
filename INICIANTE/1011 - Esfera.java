@@ -7,5 +7,6 @@ class Main {
     raio = ler.nextDouble();
     volume = (4.0/3) * pi * Math.pow(raio,3);
     System.out.printf("VOLUME = %.3f\n", volume);
+    ler.close();
   }
 }

@@ -8,5 +8,6 @@ class Main {
     double c = ler.nextDouble();
     double media = (((2*a)+(3*b)+(5*c))/10);
     System.out.printf("MEDIA = %.1f\n", media);
+    ler.close();
   }
 }

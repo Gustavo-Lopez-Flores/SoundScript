@@ -14,5 +14,6 @@ class Main {
       valorTotal += (valorPeca[i]*numeroPeca[i]); 
     }
     System.out.printf("VALOR A PAGAR: R$ %.2f\n", valorTotal);
+    ler.close();
   }
 }

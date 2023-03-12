@@ -9,5 +9,6 @@ class Main {
     int d = ler.nextInt();
     int diferenca = (a*b) - (c*d);
     System.out.printf("DIFERENCA = %d\n", diferenca);
+    ler.close();
   }
 }

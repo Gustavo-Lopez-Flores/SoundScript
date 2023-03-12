@@ -8,5 +8,6 @@ class Main {
     double vendasEfetuadas = ler.nextDouble();
     double recebimentoTotal = salarioFixo + (vendasEfetuadas * 0.15);
     System.out.printf("TOTAL = R$ %.2f\n", recebimentoTotal);
+    ler.close();
   }
 }

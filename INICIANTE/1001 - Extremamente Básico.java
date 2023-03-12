@@ -6,5 +6,6 @@ public class Main {
     int a = ler.nextInt();
     int b = ler.nextInt();
     System.out.println("X = " + (a+b));
+    ler.close();
   }
 }

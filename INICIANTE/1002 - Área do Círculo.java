@@ -8,5 +8,6 @@ public class Main {
     double raio = ler.nextDouble();
     double area = n * Math.pow(raio,2);
     System.out.printf("A=%.4f\n", area);
+    ler.close();
   }
 }
