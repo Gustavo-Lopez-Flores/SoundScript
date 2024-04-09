@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SoundScript"
+rootProject.name = "NovoProjeto"
 include(":app")
+ 
