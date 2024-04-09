@@ -6,4 +6,6 @@
     <string name="welcome">Olá seja bem-vindo ao</string>
     <string name="soundscript">SoundScript</string>
     <string name="ouca">Ouça uma música:</string>
+    <string name="albuns">Confira os álbuns</string>
+    <string name="artistas">Sobre os artistas</string>
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/belge"
     tools:context=".ui.home.HomeFragment">
 
     <TextView
@@ -15,24 +16,26 @@
         android:layout_marginBottom="44dp"
         android:text="@string/soundscript"
         android:textAlignment="center"
+        android:textColor="@color/blue"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/txtOuca"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtOuca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:text="@string/ouca"
-        app:layout_constraintBottom_toTopOf="@+id/spinner2"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerMusic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinnerMusic"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="328dp"
@@ -42,10 +45,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#A50C0C"
         android:text="@string/welcome"
+        android:textColor="@color/blue"
         app:layout_constraintBottom_toTopOf="@+id/text_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
