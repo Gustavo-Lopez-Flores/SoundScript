@@ -1,1 +1,0 @@
-SELECT products.id, products.name FROM products, categories WHERE categories.id = products.id_categories AND categories.name LIKE 'super%'
