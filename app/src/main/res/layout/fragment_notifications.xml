@@ -27,6 +27,7 @@
         android:layout_marginBottom="20dp"
         android:text="@string/artistas"
         android:textAlignment="center"
+        android:textColor="@color/blue"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/listView"
         app:layout_constraintEnd_toEndOf="parent"

@@ -16,4 +16,16 @@
         android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/title_notifications" />
 
+    <item
+        android:id="@+id/op_conf"
+        android:title="@string/config">
+        <menu>
+            <item
+                android:id="@+id/op_escuro"
+                android:title="@string/escuro"/>
+            <item
+                android:id="@+id/op_claro"
+                android:title="@string/claro"/>
+        </menu>
+    </item>
 </menu>
