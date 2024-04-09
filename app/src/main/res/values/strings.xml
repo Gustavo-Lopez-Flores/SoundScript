@@ -11,4 +11,8 @@
     <string name="albuns">Confira os álbuns</string>
     <!-- Notifications -->
     <string name="artistas">Sobre os artistas</string>
+    <!-- Menu -->
+    <string name="config">Configurações</string>
+    <string name="claro">Tema Claro</string>
+    <string name="escuro">Tema Escuro</string>
 </resources>
