@@ -12,7 +12,7 @@
         android:background="@color/belge">
 
         <ListView
-            android:id="@+id/listView"
+            android:id="@+id/list"
             android:layout_width="350dp"
             android:layout_height="400dp"
             android:layout_marginBottom="204dp"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:text="@string/op_artistas"
             android:textColor="@color/blue"
-            app:layout_constraintBottom_toTopOf="@+id/listView"
+            app:layout_constraintBottom_toTopOf="@+id/list"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"

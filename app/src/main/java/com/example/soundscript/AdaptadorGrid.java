@@ -6,10 +6,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-public class Adaptador extends BaseAdapter {
+public class AdaptadorGrid extends BaseAdapter {
     private Context context;
     private int[] list;
-    public Adaptador(Context context, int[] list){
+    public AdaptadorGrid(Context context, int[] list){
         this.context=context;
         this.list=list;
     }

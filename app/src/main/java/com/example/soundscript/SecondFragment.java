@@ -8,7 +8,6 @@ import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.soundscript.databinding.FragmentSecondBinding;
 
@@ -34,7 +33,7 @@ public class SecondFragment extends Fragment {
                 R.drawable.albuns_arlindo_cruz, R.drawable.albuns_caetano_veloso,R.drawable.albuns_cartola,
                 R.drawable.albuns_chico_buarque, R.drawable.albuns_ed_motta, R.drawable.albuns_frank_sinatra,
                 R.drawable.albuns_grover_washington};
-        binding.grid1.setAdapter(new Adaptador(getContext(),list));
+        binding.grid1.setAdapter(new AdaptadorGrid(getContext(),list));
         binding.grid1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
