@@ -8,19 +8,19 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.soundscript.FirstFragment"
-        android:label="@string/first_fragment_label"
+        android:label="@string/musicas"
         tools:layout="@layout/fragment_first">
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.soundscript.SecondFragment"
-        android:label="@string/second_fragment_label"
+        android:label="@string/albuns"
         tools:layout="@layout/fragment_second">
     </fragment>
     <fragment
         android:id="@+id/ThirdFragment"
         android:name="com.example.soundscript.ThirdFragment"
-        android:label="@string/second_fragment_label"
+        android:label="@string/artistas"
         tools:layout="@layout/fragment_third">
     </fragment>
 </navigation>
