@@ -30,13 +30,6 @@ public class SecondFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        binding.buttonSecond.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavHostFragment.findNavController(SecondFragment.this)
-                        .navigate(R.id.action_SecondFragment_to_FirstFragment);
-            }
-        });
         int[] list=new int[] {
                 R.drawable.albuns_arlindo_cruz, R.drawable.albuns_caetano_veloso,R.drawable.albuns_cartola,
                 R.drawable.albuns_chico_buarque, R.drawable.albuns_ed_motta, R.drawable.albuns_frank_sinatra,
