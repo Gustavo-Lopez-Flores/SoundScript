@@ -3,15 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.soundscript.MainActivity">
     <item
-        android:id="@+id/op_conf"
-        android:title="@string/tema">
-        <menu>
-            <item
-                android:id="@+id/op_escuro"
-                android:title="@string/escuro"/>
-            <item
-                android:id="@+id/op_claro"
-                android:title="@string/claro"/>
-        </menu>
-    </item>
+        android:id="@+id/op_first_fragment"
+        android:title="@string/musicas" />
+
+    <item
+        android:id="@+id/op_second_fragment"
+        android:title="@string/albuns" />
+
+    <item
+        android:id="@+id/op_third_fragment"
+        android:title="@string/artistas" />
 </menu>

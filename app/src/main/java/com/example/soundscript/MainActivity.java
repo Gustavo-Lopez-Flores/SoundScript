@@ -1,13 +1,11 @@
 package com.example.soundscript;
 
-import android.content.Intent;
+
 import android.os.Bundle;
 
-import com.example.soundscript.databinding.ActivityMainBinding;
 import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
-import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -45,20 +43,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         int id = item.getItemId();
 
-        if(id==R.id.op_escuro){
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        if (id == R.id.op_first_fragment) {
+            navController.navigate(R.id.FirstFragment);
             return true;
-        }else if(id==R.id.op_claro) {
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        } else if (id == R.id.op_second_fragment) {
+            navController.navigate(R.id.SecondFragment);
+            return true;
+        } else if (id == R.id.op_third_fragment) {
+            navController.navigate(R.id.ThirdFragment);
             return true;
         }
         return super.onOptionsItemSelected(item);
