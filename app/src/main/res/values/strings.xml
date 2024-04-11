@@ -26,9 +26,9 @@
     <string name="op_artistas">Sobre os artistas</string>
 
     <!-- Menu -->
-    <string name="config">Configurações</string>
-    <string name="escuro">Escuro</string>
-    <string name="claro">Claro</string>
+    <string name="tema">Mudar Tema</string>
+    <string name="escuro">Tema Escuro</string>
+    <string name="claro">Tema Claro</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
