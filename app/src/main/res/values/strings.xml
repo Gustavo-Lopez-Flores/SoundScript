@@ -25,11 +25,15 @@
     <string name="artistas">Artistas</string>
     <string name="op_artistas">Sobre os artistas</string>
 
-    <!-- Menu -->
-    <string name="tema">Mudar Tema</string>
-    <string name="escuro">Tema Escuro</string>
-    <string name="claro">Tema Claro</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Musicas -->
+    <string-array name="playlist">
+        <item>Escolha uma musica: </item>
+        <item>Frank Sinatra - Fly me to the moon</item>
+        <item>Ed Motta - Fora da lei</item>
+        <item>Chico Buarque - Joao e Maria</item>
+        <item>Grove Washington - Just the two of us</item>
+        <item>Arlindo Cruz - O bem</item>
+        <item>Cartola - O sol nascera</item>
+        <item>Caetano Veloso - Voce ja foi a bahia</item>
+    </string-array>
 </resources>
