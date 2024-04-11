@@ -9,6 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/belge"
         android:padding="16dp">
 
         <Button
@@ -27,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/welcome"
+            android:textColor="@color/blue"
             app:layout_constraintBottom_toTopOf="@+id/textView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,8 +38,8 @@
             android:id="@+id/spinner"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            tools:layout_editor_absoluteX="43dp"
-            tools:layout_editor_absoluteY="327dp" />
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="388dp" />
 
         <TextView
             android:id="@+id/textView"
@@ -45,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="116dp"
             android:text="@string/soundscript"
+            android:textColor="@color/blue"
             app:layout_constraintBottom_toTopOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
@@ -56,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
             android:text="@string/ouca"
+            android:textColor="@color/blue"
             app:layout_constraintBottom_toTopOf="@+id/spinner"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
