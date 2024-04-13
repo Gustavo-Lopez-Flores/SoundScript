@@ -23,7 +23,7 @@
 
     <!-- Third Fragment -->
     <string name="artistas">Artistas</string>
-    <string name="op_artistas">Sobre os artistas</string>
+    <string name="op_artistas">Conheça os artistas</string>
 
     <!-- Musicas -->
     <string-array name="playlist">

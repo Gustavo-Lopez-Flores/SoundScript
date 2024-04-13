@@ -33,7 +33,7 @@ public class ThirdFragment extends Fragment {
         itens.add(1,new ItemListView(R.drawable.artista_caetano_veloso,"Caetano Veloso"));
         itens.add(2,new ItemListView(R.drawable.artista_cartola,"Cartola"));
         itens.add(3,new ItemListView(R.drawable.artista_chico_buarque,"Chico Buarque"));
-        itens.add(4,new ItemListView(R.drawable.artista_ed_motta,"Chihuahua"));
+        itens.add(4,new ItemListView(R.drawable.artista_ed_motta,"Ed Motta"));
         itens.add(3,new ItemListView(R.drawable.artista_frank_sinatra,"Frank Sinatra"));
         itens.add(4,new ItemListView(R.drawable.artista_grove_whashington_jr,"Grove Washington"));
 
