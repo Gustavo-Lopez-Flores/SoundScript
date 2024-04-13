@@ -49,13 +49,16 @@ public class SecondFragment extends Fragment {
                     case 2:
                         album="Álbum: Cartola";
                         break;
-                    case 3:
-                        album="Álbum: Ed Motta";
-                        break;
                     case 4:
-                        album="Álbum: Frank Sinatra";
+                        album="Álbum: Chico Buarque";
                         break;
                     case 5:
+                        album="Álbum: Ed Motta";
+                        break;
+                    case 6:
+                        album="Álbum: Frank Sinatra";
+                        break;
+                    case 7:
                         album="Álbum: Grover Washington";
                         break;
                     default:
